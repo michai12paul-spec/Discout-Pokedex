@@ -44,7 +44,6 @@ function App() {
               pokemon?.abilities.map((skill: unknown) => {
                 return <li className="text-2xl">{skill.ability.name}</li>
               })
-
             }
           </ul>
 
